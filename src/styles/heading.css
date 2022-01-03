@@ -1,0 +1,17 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.heading div {
+  height: 1px;
+  width: 30rem;
+  background-color: rgb(221, 221, 221);
+}
+
+.heading p {
+  font-size: x-large;
+  margin: 2rem;
+  color: grey;
+}

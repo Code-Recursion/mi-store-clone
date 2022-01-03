@@ -1,0 +1,11 @@
+.startProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startProduct img {
+  transition: all 0.3s;
+}
+.startProduct img:hover {
+  box-shadow: 8px 8px 15px #d3d3d3;
+}

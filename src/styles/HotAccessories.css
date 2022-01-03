@@ -1,0 +1,21 @@
+.HotAccessories {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.HotAccessories > div:first-child > img {
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 22vw;
+}
+.HotAccessories > div:first-child > img:hover {
+  transform: translateY(0.5rem);
+  box-shadow: 6px 6px solid rgb(194, 194, 194);
+}
+
+.HotAccessories > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+}

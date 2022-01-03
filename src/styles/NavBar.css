@@ -1,0 +1,33 @@
+.preNavBar {
+  background-color: rgb(29, 28, 28);
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  color: #fff;
+}
+.preNavBar > div {
+  font-size: 1rem;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.4rem;
+}
+.preNavBar > div > span {
+  color: rgba(180, 180, 180, 0.666);
+}
+.preNavBar > div > a {
+  color: rgb(180, 180, 180);
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.preNavBar > div a:hover {
+  color: orange;
+}
+.preNavBar > div {
+  display: flex;
+  align-items: center;
+}
+
+.preNavBar > div svg {
+  fill: rgb(180, 180, 180);
+}
