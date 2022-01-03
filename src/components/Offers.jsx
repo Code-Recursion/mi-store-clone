@@ -1,5 +1,5 @@
 import React from "react";
-import Offer from "./components/Offer.jsx";
+import Offer from "./Offer.jsx";
 import '../styles/offers.css'
 
 function Offers({ offer }) {

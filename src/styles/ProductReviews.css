@@ -1,0 +1,35 @@
+.ProductReviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+  text-decoration: none;
+  color: grey !important;
+  width: 90vw;
+  font-size: 1.2rem;
+}
+.ProductReviews a {
+  text-decoration: none;
+  color: grey !important;
+}
+.ProductReviews a:hover {
+  text-decoration: none;
+}
+.ProductReviews > div {
+  margin: 1rem;
+  transition: all 0.3s;
+  background-color: #fff;
+}
+.ProductReviews > div:hover {
+  transform: translateY(5px);
+  box-shadow: 6px 6px 15px lightgray;
+}
+
+.ProductReviews div div {
+  padding: 2rem;
+}
+
+.ProductReviews div div span:last-child {
+  color: tomato;
+}

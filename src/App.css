@@ -1,4 +1,27 @@
 body {
   margin: 0;
-  background: #f6f6f6
+  background: rgb(246, 246, 246) !important;
+}
+
+.carousel-indicators button {
+  height: 1rem;
+  width: 1rem;
+  margin: 1rem;
+  padding: 0 !important;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  height: 1rem;
+  width: 1rem;
+  margin: 1rem;
+  padding: 0 !important;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.visually-hidden {
+  display: none !important;
 }

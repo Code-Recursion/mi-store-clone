@@ -1,14 +1,14 @@
 import React from "react";
 import HotItemCard from "../components/HotItemCard.jsx";
 import "../styles/HotAccessories.css";
-function HotAccessories({ music, musicCover }) {
+function HotAccessories({ product, productCover }) {
   return (
     <div className="HotAccessories">
       <div>
-        <img src={musicCover} alt="" />
+        <img src={productCover} alt="" />
       </div>
       <div className="HotAccessoriesCard">
-        {music.map((item, index) => (
+        {product.map((item, index) => (
           <HotItemCard
             key={index}
             name={item.name}
